@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="card_title">
+                <h2>TO-DO LIST</h2>
+            </div>
+            <div class="msg_content">
+                
+            </div>
+            <div class="sub_content">
+                <div class="form_card">
+                    <form action="">
+                        <div>
+                            <input type="text" placeholder="nouvelle tâche ...">
+                        </div>
+                        <div class="card_btn">
+                            <button type="submit" onclick="addTask(event)">Ajouter</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="listTasks">
+                </div>
+                <div class="clean">
+                    <span onclick="deleteAll()">Tout supprimer</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>

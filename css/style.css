@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+*::-webkit-scrollbar{
+    width: 0;
+}
+
+
+
+.container-fluid{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.container{
+    padding: .3em;
+    width: 30%;
+    max-height: 98%;
+    overflow-y: scroll;
+    background-color: rgb(217, 214, 214);
+    border-radius: .3em;
+}
+
+.card_title{
+    text-align: center;
+    padding: .2em;
+}
+
+.sub_content{
+    position: relative;
+    width: 100%;
+}
+
+.form_card{
+    position: relative;
+    padding: .5em;
+    width: 100%;
+}
+
+input{
+    padding: .2em;
+    width: 300px;
+    height: 35px;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    border: none;
+    padding: .2em;
+    color: white;
+    font-weight: bolder;
+    background-color: blue  ;
+    cursor: pointer;
+    border-radius: .2em;
+
+}
+
+.listTasks{
+    margin-top: .5em;
+    width: 100%;
+    background-color: white;
+}
+
+.task_item{
+    padding: .2em;
+    width: 100%;
+    border-bottom: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: .5em;
+}
+
+.clean{
+    padding: .3em;
+    width: 100%;
+    text-align: right;
+    color: red;
+    cursor: pointer;
+}
+
+.close_card{
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: .3em;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_style{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    margin: .3em;
+}
+
+.msg_content{
+    padding: .3em;
+    width: 100%;
+    border-radius: .5em;
+    height: 40px;
+    display: none;
+    color: white;
+}
+
+.msg_content.show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
